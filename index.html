@@ -10,8 +10,10 @@
     <form>
       <fieldset>
         <legend>Register an Account</legend>
-        <label>UserName: <input type="text" name="username" placeholder="username" /></label><br />
-        <label>Password: <input type="password" name="password" placeholder="password" /></label><br />
+        <label>UserName:<input type="text" name="username" placeholder="username" required pattern="" /></label><br />
+        <label>Age<input type="number" name="age" min="18" max="100" /></label><br />
+        
+        <label>Password:<input type="password" name="password" placeholder="password..." required pattern="" minlength="6" /></label><br />
         <input type="submit" value="Register" /> 
 
     <script src="script.js"></script>
